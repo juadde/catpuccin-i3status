@@ -53,6 +53,10 @@ general {
 }
 ```
 
+## 💝 Thanks to
+
+- [juadde](https://github.com/juadde)
+
 &nbsp;
 
 <p align="center">
