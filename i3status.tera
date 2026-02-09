@@ -1,0 +1,15 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}"
+---
+{%- set palette = flavor.colors -%}
+general {
+        colors = true
+        color_good = "#{{ palette.green.hex }}"
+        color_degraded = "#{{ palette.peach.hex }}"
+        color_bad = "#{{ palette.red.hex }}"
+        interval = 5
+}
